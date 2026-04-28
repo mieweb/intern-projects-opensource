@@ -262,7 +262,7 @@ A Python project interfacing with Ozwell. Interns can add new commands, improve 
 Storage and processing system for Pulse. Interns can improve storage integrations, add monitoring/observability, write tests, or improve documentation.
 
 ### [pulse](https://github.com/mieweb/pulse)
-**Language:** TypeScript | **Last push:** 2026-04-24  
+**Language:** TypeScript | **Last push:** 2026-04-28  
 Secure institutional knowledge sharing through short-form video content. Interns can work on new features, fix UI bugs, improve the video upload/playback experience, write tests, or improve documentation.
 
 ### [pulseclip](https://github.com/mieweb/pulseclip)
@@ -353,6 +353,10 @@ A Meteor/Cordova application for push notification-based authentication. Interns
 **Language:** JavaScript | **Last push:** 2026-04-08  
 An LDAP gateway server using ldapjs that connects to a database to manage and authenticate users. Interns can improve documentation, add support for additional LDAP operations, write integration tests, or improve error handling.
 
+### [node-ldapjs](https://github.com/mieweb/node-ldapjs)
+**Language:** JavaScript | **Last push:** 2025-12-03  
+MIEWeb's actively maintained fork of the ldapjs LDAP client/server library for Node.js — the upstream project was decommissioned in 2024, so this fork is the version keeping MIEWeb's `LDAPServer` and other tooling running. Interns can backport useful upstream fixes, improve async handling, add or expand tests, improve documentation, or help evaluate a longer-term migration path.
+
 ### [hfaxjs](https://github.com/mieweb/hfaxjs)
 **Language:** JavaScript | **Last push:** 2026-02-11  
 A Hylafax+ gateway for Node.js. Interns can add support for additional fax operations, improve error handling, write tests, or improve documentation.
@@ -416,6 +420,10 @@ A tool to write a uniform distribution of files to disk for testing and benchmar
 [BioNanomics](https://bionanomics.com/) is Indiana's first non-profit dedicated to biorobotics — a bio-makerspace where student interns and independent scientists perform synthetic biology research and develop automation for the wet lab. BioNanomics also operates **[The Refinery](https://bionanomics.com/projects#the-refinery)**, a community workshop and practice space that supports local FIRST Robotics Competition (FRC) teams. MIE is a proud collaborator and many MIEWeb interns have the opportunity to contribute to both the lab software and the robotics side.
 
 ### Lab & Automation Projects
+
+#### [benchmate](https://github.com/BioNanomics/benchmate)
+**Language:** TypeScript | **Last push:** 2026-04-28  
+An AI-powered lab protocol management system built with Next.js and Fastify that lets scientists create, manage, and execute protocols — with a roadmap toward voice-first and AI-assisted workflows. Interns can implement Phase 4 voice input and AI protocol parsing (the next planned milestone), build the Phase 5 real-time execution dashboard, add device integration webhooks, write tests for the Fastify API, or improve the shared TypeScript types package.
 
 #### [ConvergentDecidua](https://github.com/BioNanomics/ConvergentDecidua)
 **Language:** Python | **Last push:** 2026-04-27  
@@ -503,15 +511,6 @@ Docs and configuration files for the Building 21 Field Management System (FMS) �
 **Last push:** 2025-09-22  
 The BioNanomics repository template. Interns can improve the default README structure, add standard CI/CD workflows, add issue and PR templates, or align it with MIEWeb's `template-mieweb-opensource` conventions.
 
----
-
-## Newly Added
-
-*These repos were recently discovered and added automatically. Help wanted: improve the descriptions and move them to the right category!*
-
-### [node-ldapjs](https://github.com/mieweb/node-ldapjs)
-**Last push:** 2025-12-03 | **Language:** JavaScript  
-LDAP Client and Server API for node.js Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ---
 ## Getting Started
