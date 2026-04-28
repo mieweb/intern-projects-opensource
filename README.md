@@ -427,7 +427,57 @@ A tool to write a uniform distribution of files to disk for testing and benchmar
 **Language:** Python | **Last push:** 2026-04-27  
 A lab research project at BioNanomics. Interns can help by writing data analysis scripts, improving documentation, adding unit tests, building automation pipelines for lab instruments, or contributing visualizations that help interpret experimental results.
 
-### See The Refinery in Action
+### Proposed Lab Automation Projects
+
+> **These projects are in the planning stage — no repositories exist yet.** The goal is to build open-source tools that turn BioNanomics instruments into programmable, observable systems and ultimately help researchers understand how cells communicate, differentiate, and self-organize into tissues. If any of these ideas excite you, reach out to start a conversation and help shape the direction.
+
+The central mission: **build cellular debuggers** — tools that let researchers set "breakpoints" on biological processes, inspect cell state across time and space, and decode the molecular language cells use to coordinate tissue formation.
+
+---
+
+#### ConfocalOrchestrator
+**Hardware:** N-SPARC Confocal Microscope | **Skills:** Python, serial/USB hardware APIs, image processing (OpenCV, scikit-image)  
+An automated acquisition pipeline for the N-SPARC confocal. Contributers can build stage control scripts, schedule multi-position z-stack runs overnight, manage fluorescence channel sequences, stitch tiles into OME-TIFF volumes, and stream previews to a web dashboard. The end goal is a protocol-driven confocal that runs unattended and delivers analysis-ready image stacks.
+
+#### SEM-Scout
+**Hardware:** Scanning Electron Microscope | **Skills:** Python, image analysis, instrument API/serial communication  
+Automate the tedious "find and shoot" loop on the SEM. A low-magnification survey scan identifies regions of interest using computer vision (edge detection, texture classification), then the system navigates to each target, captures high-resolution images, and packages results with metadata. Contributers can work on the CV pipeline, instrument control layer, or the results browser UI.
+
+#### HaplyMicro
+**Hardware:** Haply haptic device + 6DOF robot arm | **Skills:** C++/Python, ROS2, real-time control, haptics  
+Map the Haply haptic controller to the 6DOF robot arm for force-feedback micromanipulation — micro-injections, embryo handling, patch-clamp electrode positioning. The haptic device scales operator forces so fine movements feel natural while the arm executes with sub-millimeter precision. Contributers can work on the kinematics layer, the force-scaling model, safety interlocks, or a ROS2 action server interface.
+
+#### RoboCulture
+**Hardware:** 6DOF robot arm + liquid handling system | **Skills:** Python, ROS2, protocol scheduling, lab automation  
+Fully automate cell culture maintenance — scheduled media changes, reagent additions, sampling, and waste disposal — all orchestrated by a protocol scheduler and logged to a structured audit trail. Contributers can build the protocol DSL, the robot motion planner, the scheduling engine, or the monitoring dashboard that shows what the arm did and when.
+
+#### FluidScript
+**Hardware:** Automated liquid handling system | **Skills:** TypeScript/Python, DSL design, hardware drivers  
+A declarative protocol language (YAML/JSON) for describing liquid handling workflows: aspirate, dispense, mix, dilute, serial dilute. Protocols compile to instrument-specific command sequences for common handlers (Opentrons OT-2, Hamilton, or custom systems). Contributers can design the schema, write the compiler, build a visual protocol editor, or add hardware back-end drivers.
+
+#### EmbryoWatch
+**Hardware:** N-SPARC Confocal + motorized stage | **Skills:** Python, PyTorch/scikit-image, time-series analysis, cell tracking  
+An automated time-lapse platform for *C. elegans* embryo development. Multi-position imaging captures every division from single cell to comma stage. A tracking pipeline follows each cell nucleus across frames, builds a lineage tree, and flags deviations from the canonical Sulston lineage. Contributers can work on acquisition control, the nucleus segmentation model, lineage tree visualization, or the anomaly detector.
+
+#### GallTracer
+**Hardware:** N-SPARC Confocal + brightfield microscope | **Skills:** Python, scikit-image, machine learning, time-series analysis  
+A time-lapse imaging and analysis pipeline for plant gall formation — tracking how host cells are reprogrammed by a parasite or pathogen to form a new tissue structure. The system segments individual cells across frames, measures morphological changes (area, aspect ratio, fluorescence intensity), and builds a spatiotemporal map of the transformation. Contributers can build the segmentation pipeline, the cell tracker, the morphology feature extractor, or the visualization layer.
+
+#### CellDebugger
+**Skills:** TypeScript/React, D3.js, Python (backend), image overlay rendering  
+A unified "debugger" UI for cell state — the core tool for the cellular debugging mission. Researchers load a time-lapse dataset and can: inspect any cell at any timepoint (morphology, marker levels, neighbors), set "watchpoints" on marker thresholds, step forward/backward through developmental time, and compare cells that chose different fates. Think Chrome DevTools, but for a tissue. Contributers can build the timeline scrubber, the cell inspector panel, the spatial neighborhood graph, or the Python data ingestion pipeline.
+
+#### CellLex
+**Skills:** Python, graph neural networks, statistical modeling, bioinformatics  
+A computational tool for decoding intercellular signaling "vocabulary" — the patterns of molecular signals that precede and cause differentiation events. CellLex ingests spatiotemporal imaging data (fluorescence channels, cell positions, neighbor relationships over time) and applies sequence and graph models to identify recurring signal motifs that predict fate decisions. Contributers can work on the spatiotemporal feature engineering, the motif discovery algorithm, the visualization of learned signal grammars, or benchmarking against published C. elegans and plant datasets.
+
+#### TissueSim
+**Skills:** Python/Julia, agent-based modeling, PDE solvers, parameter fitting, scientific visualization  
+A computational digital twin of tissue morphogenesis — an agent-based or reaction-diffusion model of cell signaling and mechanical forces calibrated against experimental time-lapse data. Researchers propose a signaling hypothesis, run it in simulation, compare predicted cell behavior to observed behavior, and iterate. Contributers can build the simulation core, the parameter fitting pipeline (Bayesian or gradient-based), the comparison metrics between simulation and experiment, or the web-based simulation viewer.
+
+---
+
+
 
 [![Instagram: @the_refinery_bybnx](https://img.shields.io/badge/Instagram-%40the__refinery__bybnx-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the_refinery_bybnx/)
 
