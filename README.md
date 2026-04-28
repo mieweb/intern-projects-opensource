@@ -479,9 +479,11 @@ A computational digital twin of tissue morphogenesis — an agent-based or react
 
 ---
 
+[![][image1]](https://www.instagram.com/the_refinery_bybnx/)  
+[https://www.instagram.com/the\_refinery\_bybnx/](https://www.instagram.com/the_refinery_bybnx/)
 
+[image1]: assets/bnx-refinery.png
 
-[![Instagram: @the_refinery_bybnx](https://img.shields.io/badge/Instagram-%40the__refinery__bybnx-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the_refinery_bybnx/)
 
 The Refinery's Instagram is the best place to see what's happening day-to-day — robot builds, competition days, student milestones, and lab activity. Before you dive into the code, take a few minutes to scroll through [@the_refinery_bybnx](https://www.instagram.com/the_refinery_bybnx/) to understand the community and the students your contributions will directly support.
 
