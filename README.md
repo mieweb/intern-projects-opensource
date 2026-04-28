@@ -35,9 +35,6 @@ WebChart and Enterprise Health documentation website. Interns can contribute by 
 **Last push:** 2023-12-21  
 Videos used for documentation. Interns can help by scripting, recording, or editing short instructional videos that accompany written documentation, or by auditing existing videos for accuracy and accessibility.
 
-### [WikiGDriveTest](https://github.com/mieweb/WikiGDriveTest)
-**Last push:** 2023-09-07  
-A test repository for the wikiGDrive tool. Interns can add test documents, validate sync behavior between Google Drive and the wiki, and help document edge cases and limitations discovered during testing.
 
 ---
 
@@ -207,12 +204,17 @@ A MeteorJS API package for WebChart and EnterpriseHealth. Interns can improve do
 **Language:** Python | **Last push:** 2017-04-10  
 A DSL that allows Selenium tests to be written in plain English. Interns can add new DSL keywords, improve the parser, write tests for the DSL itself, or build example test suites that demonstrate real-world usage.
 
+### [WikiGDriveTest](https://github.com/mieweb/WikiGDriveTest)
+**Last push:** 2023-09-07  
+A test repository for the wikiGDrive tool. Interns can add test documents, validate sync behavior between Google Drive and the wiki, and help document edge cases and limitations discovered during testing.
+
+
 ---
 
 ## UI & Frontend Components
 
 ### [ui](https://github.com/mieweb/ui)
-**Language:** TypeScript | **Last push:** 2026-04-27  
+**Language:** TypeScript | **Last push:** 2026-04-28  
 MIEWeb's shared UI component library. Interns can add new components, write Storybook stories, improve accessibility, add unit/snapshot tests, or improve component documentation.
 
 ### [v0-case-mgmt-9-3-2006](https://github.com/mieweb/v0-case-mgmt-9-3-2006)
@@ -391,14 +393,6 @@ The MIE Developer Challenge — a coding exercise for prospective hires. Interns
 
 ## Misc & Experimental
 
-### [PulseVault-old](https://github.com/mieweb/PulseVault-old)
-**Language:** TypeScript | **Last push:** 2026-04-17  
-The original Pulse storage and processing system. Interns can review the legacy architecture, document design decisions, or help identify components worth migrating to the current `pulsevault` repository.
-
-### [questionnaire-builder](https://github.com/mieweb/questionnaire-builder)
-**Language:** JavaScript | **Last push:** 2026-04-13  
-A questionnaire builder tool (note: this repo points to a newer version). Interns can help by reviewing the legacy code, documenting differences between the old and new versions, or migrating useful features to the updated repository.
-
 ### [yCard](https://github.com/mieweb/yCard)
 **Language:** TypeScript | **Last push:** 2025-11-16  
 An internationalized YAML version of vCard/iCard and x500 LDAP for humans. Interns can add new field types, improve parsing and serialization, write tests, or improve documentation with real-world examples.
@@ -511,6 +505,15 @@ The BioNanomics repository template. Interns can improve the default README stru
 
 ---
 
+## Newly Added
+
+*These repos were recently discovered and added automatically. Help wanted: improve the descriptions and move them to the right category!*
+
+### [node-ldapjs](https://github.com/mieweb/node-ldapjs)
+**Last push:** 2025-12-03 | **Language:** JavaScript  
+LDAP Client and Server API for node.js Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
+
+---
 ## Getting Started
 
 1. **Explore [os.mieweb.org](https://os.mieweb.org/)** — familiarize yourself with the MIEWeb open-source portal and its [source code](https://github.com/mieweb/opensource-server).
