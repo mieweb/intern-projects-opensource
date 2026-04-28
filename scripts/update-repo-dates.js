@@ -40,6 +40,7 @@ const IGNORE_REPOS = new Set([
   'mieweb/jit',
   'mieweb/libs3',
   'mieweb/nodejs-mobile-cordova',
+  'mieweb/cordova-audio',
   'mieweb/Rocket.Chat',
   'mieweb/OHIF-Viewers',
   'mieweb/jaguarjs',
