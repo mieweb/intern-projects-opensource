@@ -56,6 +56,7 @@ const INCLUDE_FORKS = new Set([
   'mieweb/ansible-role-mongodb',
   'mieweb/ansible-role-auth-server',
   'mieweb/node-ldapjs',
+  'mieweb/clinical_note_benchmark',
 ]);
 
 // Repos pushed before this date are skipped when auto-adding (they can still

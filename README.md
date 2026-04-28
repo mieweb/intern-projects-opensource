@@ -153,6 +153,10 @@ A FHIR-based scheduling synapse system to ease scheduling between healthcare org
 **Language:** HTML | **Last push:** 2026-04-06  
 An E&M (Evaluation and Management) calculator implementing 2021 coding rules. Interns can improve the UI, add explanations for each rule, fix calculation edge cases, or make the tool mobile-friendly.
 
+### [clinical\_note\_benchmark](https://github.com/mieweb/clinical_note_benchmark)
+**Language:** Python | **Last push:** 2026-04-27  
+A benchmark suite for evaluating how well LLMs convert doctor–patient dialogue transcripts into structured clinical notes (SOAP format). It tracks accuracy across models using ROUGE, BERTScore, BLEURT, and fact-level hallucination/omission metrics — designed to be re-run whenever a major model change occurs (e.g. GPT-4 → GPT-5, or switching to a local Ollama model). Interns can add new LLMs to the benchmark, integrate additional datasets (MTS-Dialog, CliniKnote, PMC-Patients), implement automated hallucination detection, improve the evaluation harness, or write a results dashboard to visualize model comparisons over time.
+
 ### [webchart-interface-examples](https://github.com/mieweb/webchart-interface-examples)
 **Language:** Python | **Last push:** 2025-02-05  
 Python scripts that demonstrate how to POST data into a WebChart system via the MIE REST API — currently includes a document-upload example that reads a CSV of patient IDs and file paths, authenticates as a WebChart user, and bulk-uploads documents (PDFs, CCR XMLs, etc.) into the correct patient charts. The best way to try these is against the free demo system at [webchartnow.com](https://webchartnow.com) — spin up a demo, grab your credentials, and run `upload.py` against it. Interns can add new interface examples (HL7 message posting, patient demographics import, order entry), convert the scripts to use the [`mieapi-js`](https://github.com/mieweb/mieapi-js) client as a comparison, write pytest tests that run against the demo system, or improve error handling and retry logic for network failures.
