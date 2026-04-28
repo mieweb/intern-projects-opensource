@@ -73,6 +73,7 @@ const SKIP_OLDER_THAN = '2020-01-01';
 const RETIRED_REPOS = new Set([
   'mieweb/PulseVault-old',        // superseded by mieweb/pulsevault
   'mieweb/questionnaire-builder', // superseded by a newer version
+  'mieweb/rass-api',              // removed from intern listing
 ]);
 
 // The heading used for the auto-append section.  The script will create this
