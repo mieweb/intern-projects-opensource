@@ -1,6 +1,49 @@
-## Code Quality Principles
+## About This Repository
 
 <!-- https://github.com/mieweb/template-mieweb-opensource/blob/main/.github/copilot-instructions.md -->
+
+This is **[mieweb/opensource-internships](https://github.com/mieweb/opensource-internships)** — a curated directory of MIEWeb and BioNanomics open-source projects where interns can make meaningful contributions. The primary artifact is `README.md`, which lists repositories organized by category.
+
+### README.md Structure
+
+Each repository entry follows this format:
+
+```markdown
+### [repo-name](https://github.com/org/repo-name)
+**Language:** TypeScript | **Last push:** YYYY-MM-DD  
+One-sentence description. Interns can <specific contribution ideas>.
+```
+
+Rules for maintaining entries:
+- **Language** is optional; omit the field entirely if the repo has no dominant language.
+- **Last push** dates are auto-updated by `scripts/update-repo-dates.js` — do not manually change them unless correcting an error.
+- Descriptions must include concrete intern contribution ideas (not just "contribute to the project").
+- Within each category, entries are ordered **most to least recently active** (by last push date).
+- New repos discovered by the script are auto-appended to `## Newly Added`. Manually move them to the correct category with a proper description.
+
+### Adding or Editing a Repository Entry
+
+1. Place the entry in the correct category section, in date order.
+2. Write a one-sentence description of what the project does, followed by specific intern contribution ideas.
+3. If creating a new category, add a `---` horizontal rule before and after it.
+4. Do not add repos that are in the `IGNORE_REPOS` set in `scripts/update-repo-dates.js`.
+
+### Updating Last-Push Dates
+
+Run the date-update script whenever the listing needs refreshing:
+
+```sh
+GITHUB_TOKEN=ghp_xxx node scripts/update-repo-dates.js
+```
+
+Requires Node.js 18+ and a GitHub personal access token with `public_repo` read scope. The script:
+- Updates `**Last push:**` dates for all listed repos.
+- Appends newly discovered repos to `## Newly Added`.
+- Skips repos in `IGNORE_REPOS` and un-listed forks not in `INCLUDE_FORKS`.
+
+---
+
+## Code Quality Principles
 
 ### 🎯 DRY (Don't Repeat Yourself)
 - **Never duplicate code**: If you find yourself copying code, extract it into a reusable function
