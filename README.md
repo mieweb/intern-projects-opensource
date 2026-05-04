@@ -30,11 +30,11 @@ In addition to project-specific work, interns are encouraged to apply these impr
 All AI-related projects are great opportunities to get involved with MIE's AI initiatives, including Ozwell.ai and other automation efforts. Interns can contribute to improving AI tooling, building new features, or enhancing documentation for these projects.  Any project you propose should include a clear path for how it could integrate with Ozwell.ai or other MIE AI systems in a meaningful way.
 
 ### [ozwellai-api](https://github.com/mieweb/ozwellai-api)
-**Language:** TypeScript | **Last push:** 2026-04-27  
+**Language:** TypeScript | **Last push:** 2026-05-01  
 API specifications and schemas for Ozwell.ai. Interns can improve OpenAPI documentation, add example request/response payloads, write validation tooling, or help generate SDK code from the spec.
 
 ### [ozwell-studio](https://github.com/mieweb/ozwell-studio)
-**Language:** TypeScript | **Last push:** 2026-04-20  
+**Language:** TypeScript | **Last push:** 2026-05-01  
 Ozwell Studio — an AI-powered studio application. Interns can build new features, improve the user interface, write tests, or help with integrating additional AI models or APIs.
 
 ### [melvil-artipod-footnote](https://github.com/mieweb/melvil-artipod-footnote)
@@ -53,7 +53,7 @@ A Python project interfacing with Ozwell. Interns can add new commands, improve 
 These repositories are focused on documentation, guides, and educational content for MIE's EHR. Contributing to these can be a great way to learn about the ecosystem while helping others onboard more smoothly.  You should make a WebChart EHR Demo system at https://webchartnow.com and press the "Getting Started" button.
 
 ### [docs](https://github.com/mieweb/docs)
-**Language:** JavaScript | **Last push:** 2026-04-24  
+**Language:** JavaScript | **Last push:** 2026-05-01  
 WebChart and Enterprise Health documentation website. Interns can contribute by improving existing documentation pages, fixing typos and broken links, adding new how-to guides, writing tutorials based on their own onboarding experience, or improving the site's tooling and build process.
 
 ### [docs_video](https://github.com/mieweb/docs_video)
@@ -66,15 +66,15 @@ Videos used for documentation. Interns can help by scripting, recording, or edit
 ## Core Tools & Platforms
 
 ### [eSheet](https://github.com/mieweb/eSheet)
-**Language:** TypeScript | **Last push:** 2026-04-27  
+**Language:** TypeScript | **Last push:** 2026-04-30  
 A modular form builder and renderer for React — a TypeScript-first Nx monorepo with packages for a drag-and-drop visual builder (`@esheet/builder`), a form renderer (`@esheet/renderer`), 19 built-in field components, and a headless logic/schema core. Interns can add new field types to `@esheet/fields`, improve the drag-and-drop builder UX, expand test coverage with Vitest, improve the Docusaurus documentation site, fix open issues, or build a new renderer integration (e.g. a Web Component or non-Blaze backend).
 
 ### [templit](https://github.com/mieweb/templit)
-**Language:** TypeScript | **Last push:** 2026-04-24  
+**Language:** TypeScript | **Last push:** 2026-04-28  
 A TypeScript library that renders Markdown templates to HTML using a single `render()` API — with built-in support for Handlebars, Mustache, and Liquid engines selectable via YAML frontmatter, automatic frontmatter variable defaults that merge with runtime overrides, and a `marked`-powered Markdown-to-HTML pipeline. It ships as ESM + CJS with full type definitions, and includes a live Next.js + Monaco Editor playground pre-loaded with real-world examples (MSAs, Software License Agreements, HIPAA BAAs). Interns can add a new template engine (e.g. Nunjucks or EJS), improve the Monaco playground UI, expand Vitest test coverage for edge cases in frontmatter parsing and variable merging, add a CLI tool for rendering templates from the command line, or build an example integration showing templit powering a contract-generation workflow.
 
 ### [artipod](https://github.com/mieweb/artipod)
-**Language:** TypeScript | **Last push:** 2026-04-17  
+**Language:** TypeScript | **Last push:** 2026-05-04  
 A TypeScript library that provides AI-aware filesystem abstraction (ArtiMounts) and isolated Docker/Podman container execution for AI agents — exposing VS Code Copilot Chat-compatible tool schemas so models can read, edit, and execute code in a sandboxed environment. Interns can add new mount-level tools, improve the web demo UI, expand test coverage with Jest, add support for additional container runtimes, or build example integrations showing how to wire artipod into an AI agent workflow.
 
 ### [yabelfish](https://github.com/mieweb/yabelfish)
@@ -98,7 +98,7 @@ A browser-based SQL query tool. Interns can improve the UI/UX, add query history
 A single-page DuckDB shell explorer with AG Grid running in the browser. Interns can improve the query editor experience, add data import/export features, write documentation, or explore adding visualization features on top of query results.
 
 ### [loopwatch](https://github.com/mieweb/loopwatch)
-**Last push:** 2025-12-15  
+**Last push:** 2026-04-28  
 A production-ready Node.js event loop watchdog (`@mieweb/loopwatch`) that uses `perf_hooks` to sample p50/p95/p99 lag and Event Loop Utilization (ELU) every second, fires a configurable `onWarning` callback when thresholds are breached consecutively, and exports Prometheus metrics (`node_event_loop_delay_p95_ms`, `node_event_loop_utilization`, etc.) plus optional OpenTelemetry span annotations — all with <1% CPU overhead and zero hard dependencies. Interns can add a `--threshold` CLI demo tool, write Jest tests that artificially block the loop to verify alert firing, add a pre-built Grafana dashboard JSON, implement load-shedding middleware for Express/Fastify as an example integration, or publish the package to npm.
 
 ### [redmine-mcp](https://github.com/mieweb/redmine-mcp)
@@ -114,7 +114,7 @@ An MCP (Model Context Protocol) server that exposes the Redmine REST API for AI 
 Storage and processing system for Pulse. Interns can improve storage integrations, add monitoring/observability, write tests, or improve documentation.
 
 ### [pulse](https://github.com/mieweb/pulse)
-**Language:** TypeScript | **Last push:** 2026-04-28  
+**Language:** TypeScript | **Last push:** 2026-05-01  
 Secure institutional knowledge sharing through short-form video content. Interns can work on new features, fix UI bugs, improve the video upload/playback experience, write tests, or improve documentation.
 
 ### [pulseclip](https://github.com/mieweb/pulseclip)
@@ -130,7 +130,7 @@ Pulse Cam — a desktop application for capturing video. Interns with interest i
 ## Time & Scheduling
 
 ### [timehuddle](https://github.com/mieweb/timehuddle)
-**Language:** TypeScript | **Last push:** 2026-04-27  
+**Language:** TypeScript | **Last push:** 2026-05-03  
 A time/scheduling collaboration tool. Interns can add new scheduling features, improve the UI, write tests, or improve documentation.
 
 ### [timeharbor-app](https://github.com/mieweb/timeharbor-app)
@@ -146,7 +146,7 @@ The original TimeHarbor codebase. Interns can explore the legacy code to underst
 ## Healthcare Standards & Interoperability
 
 ### [FHIRTogether](https://github.com/mieweb/FHIRTogether)
-**Language:** TypeScript | **Last push:** 2026-04-27  
+**Language:** TypeScript | **Last push:** 2026-05-01  
 A FHIR-based scheduling synapse system to ease scheduling between healthcare organizations. Interns can help implement additional FHIR resource types, write integration tests, improve API documentation, or add example client code.
 
 ### [em2021](https://github.com/mieweb/em2021)
@@ -154,7 +154,7 @@ A FHIR-based scheduling synapse system to ease scheduling between healthcare org
 An E&M (Evaluation and Management) calculator implementing 2021 coding rules. Interns can improve the UI, add explanations for each rule, fix calculation edge cases, or make the tool mobile-friendly.
 
 ### [clinical\_note\_benchmark](https://github.com/mieweb/clinical_note_benchmark)
-**Language:** Python | **Last push:** 2026-04-27  
+**Language:** Python | **Last push:** 2026-04-28  
 A benchmark suite for evaluating how well LLMs convert doctor–patient dialogue transcripts into structured clinical notes (SOAP format). It tracks accuracy across models using ROUGE, BERTScore, BLEURT, and fact-level hallucination/omission metrics — designed to be re-run whenever a major model change occurs (e.g. GPT-4 → GPT-5, or switching to a local Ollama model). Interns can add new LLMs to the benchmark, integrate additional datasets (MTS-Dialog, CliniKnote, PMC-Patients), implement automated hallucination detection, improve the evaluation harness, or write a results dashboard to visualize model comparisons over time.
 
 ### [webchart-interface-examples](https://github.com/mieweb/webchart-interface-examples)
@@ -188,7 +188,7 @@ FroozHIE 2.0 — a zero-dependency, browser-based C-CDA viewer for physicians an
 ## Data Visualization
 
 ### [datavis](https://github.com/mieweb/datavis)
-**Language:** TypeScript | **Last push:** 2026-04-23  
+**Language:** TypeScript | **Last push:** 2026-04-30  
 **DataVis NITRO** — a React 19 + `@mieweb/ui` + Tailwind CSS 4 front-end library built on top of the [wcdatavis](https://github.com/mieweb/wcdatavis) data engine. It provides a full-featured `DataGrid` component with flat, grouped, and pivot table renderers; a drag-and-drop `ControlPanel` for building group/pivot/aggregate operations (8 aggregate functions: sum, avg, count, counta, countu, min, max, list); per-column filter widgets for strings, numbers, dates, and booleans; 6 modal dialogs (column config, template editor, perspective manager, debug inspector, and more); a `PrefsToolbar` for saving/restoring named perspectives; and i18n support in 10 locales. See the [live demo](https://mieweb.github.io/datavis/) and [Storybook](https://verbose-disco-y7k1zoq.pages.github.io/storybook/). The rewrite is actively in progress — Phase 5 (Chart.js graph shell) is the next open milestone. Interns can implement the graph phase, add Playwright E2E tests for grouped/pivot modes, add new column types or aggregate functions, improve accessibility (ARIA, keyboard nav), expand i18n locale coverage, or port the remaining legacy UI patterns to `@mieweb/ui` components (tracked in `mieweb-ui-migration.md`).
 
 ### [wcdatavis](https://github.com/mieweb/wcdatavis)
@@ -200,7 +200,7 @@ FroozHIE 2.0 — a zero-dependency, browser-based C-CDA viewer for physicians an
 `@mieweb/ychart` — a full interactive org chart editor published on npm (v1.1.0, 7 releases) with a [live playground](https://orgchart.opensource.mieweb.org/) and [docs site](https://orgchart.opensource.mieweb.org/docs). It wraps [d3-org-chart](https://github.com/bumbeishvili/org-chart) with a CodeMirror YAML editor that live-previews the chart as you type. Data is defined as a flat YAML list (`id`/`parentId` fields); YAML front matter controls layout options (nodeWidth, nodeHeight, margins) and a typed schema for data validation. Key features: dual view modes (hierarchical tree ↔ force-directed graph), Person of Interest (POI) mode that focuses on one person's chain of command with collapsible sibling levels, automatic supervisor-name-to-parentId resolution, draggable nodes with localStorage position persistence, SVG/PNG export, and a fluent `YChartEditor` programmatic API (`editor.self(...).template(...).bgPatternStyle(...)`). The UI uses `@mieweb/ui` components with multi-brand theming via CSS variables. There is an open PRD for migrating to a monorepo with `@mieweb/ui` (tracked in `PRD-MONOREPO-MIGRATION.md`). Interns can implement the monorepo migration, add a React wrapper component with proper hooks, add more node card templates, expand Playwright E2E test coverage, implement undo/redo for YAML edits, or add a search/filter bar that highlights matching nodes.
 
 ### [ychart-xyflow](https://github.com/mieweb/ychart-xyflow)
-**Language:** TypeScript | **Last push:** 2026-04-06  
+**Language:** TypeScript | **Last push:** 2026-04-28  
 An early-stage pnpm monorepo scaffold exploring [xyflow (React Flow)](https://xyflow.com/) as an alternative rendering engine for ychart — specifically for use cases where the force-directed/editable-graph layout matters more than the compact hierarchical tree. The monorepo has an `apps/playground` demo app and a `packages/` directory ready for the component library. This is a greenfield project — interns can build out the first real node/edge types, connect it to the same YAML-over-front-matter data format as `@mieweb/ychart`, wire in `@mieweb/ui` theming, add POI filtering, or write the initial Playwright test suite.
 
 ### [jaguarjs-jsdoc](https://github.com/mieweb/jaguarjs-jsdoc)
@@ -270,7 +270,7 @@ A test repository for the wikiGDrive tool. Interns can add test documents, valid
 ## UI & Frontend Components
 
 ### [ui](https://github.com/mieweb/ui)
-**Language:** TypeScript | **Last push:** 2026-04-28  
+**Language:** TypeScript | **Last push:** 2026-05-02  
 MIEWeb's shared UI component library. Interns can add new components, write Storybook stories, improve accessibility, add unit/snapshot tests, or improve component documentation.
 
 ### [news-widget](https://github.com/mieweb/news-widget)
@@ -298,7 +298,7 @@ A lightweight, in-app diagnostics viewer for Cordova mobile apps. Interns can im
 Reusable GitHub Actions for mobile CI/CD (iOS signing and build, Android). Interns can add new reusable actions, improve existing ones, write tests, improve documentation, or add support for additional mobile platforms.
 
 ### [opensource-server](https://github.com/mieweb/opensource-server)
-**Language:** JavaScript | **Last push:** 2026-04-24  
+**Language:** JavaScript | **Last push:** 2026-04-29  
 The MIEWeb open-source server configuration and setup. Interns can improve provisioning scripts, add documentation, write tests for configuration steps, or update dependencies.
 
 ### [template-mieweb-opensource](https://github.com/mieweb/template-mieweb-opensource)
@@ -354,7 +354,7 @@ A proof-of-concept monorepo demonstrating multiple authentication patterns using
 An example showing OAuth2 token usage with WebChart. Interns can improve the example with more detailed comments, add error handling, extend it to cover additional OAuth flows, or add a step-by-step setup guide.
 
 ### [mieweb_auth_app](https://github.com/mieweb/mieweb_auth_app)
-**Language:** JavaScript | **Last push:** 2026-04-27  
+**Language:** JavaScript | **Last push:** 2026-04-28  
 A Meteor/Cordova application for push notification-based authentication. Interns can improve the push notification handling, update dependencies, improve the UI, write tests, or improve documentation.
 
 ### [LDAPServer](https://github.com/mieweb/LDAPServer)
@@ -513,6 +513,19 @@ Docs and configuration files for the Building 21 Field Management System (FMS) �
 **Last push:** 2025-09-22  
 The BioNanomics repository template. Interns can improve the default README structure, add standard CI/CD workflows, add issue and PR templates, or align it with MIEWeb's `template-mieweb-opensource` conventions.
 
+
+---
+## Newly Added
+
+*These repos were recently discovered and added automatically. Help wanted: improve the descriptions and move them to the right category!*
+
+### [v0-case-mgmt-9-3-2006](https://github.com/mieweb/v0-case-mgmt-9-3-2006)
+**Last push:** 2026-05-01 | **Language:** TypeScript  
+A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
+
+### [actions](https://github.com/mieweb/actions)
+**Last push:** 2026-04-30 | **Language:** Ruby  
+Reusable GitHub Actions for mobile CI/CD (iOS signing + build, Android) Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ---
 ## Getting Started
