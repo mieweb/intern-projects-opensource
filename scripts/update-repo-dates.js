@@ -27,7 +27,7 @@ const README_PATH = path.join(__dirname, '..', 'README.md');
 // this repo itself, etc.)
 const IGNORE_REPOS = new Set([
   'BioNanomics/.github',
-  'mieweb/opensource-internships',  // this repo
+  'mieweb/intern-projects-opensource',  // this repo
   // Old third-party forks — not intern-facing
   'mieweb/simplesamlphp',
   'mieweb/pivottable',

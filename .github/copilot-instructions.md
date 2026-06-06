@@ -2,7 +2,7 @@
 
 <!-- https://github.com/mieweb/template-mieweb-opensource/blob/main/.github/copilot-instructions.md -->
 
-This is **[mieweb/opensource-internships](https://github.com/mieweb/opensource-internships)** — a curated directory of MIEWeb and BioNanomics open-source projects where interns can make meaningful contributions. The primary artifact is `README.md`, which lists repositories organized by category.
+This is **[mieweb/intern-projects-opensource](https://github.com/mieweb/intern-projects-opensource)** — a curated directory of MIEWeb and BioNanomics open-source projects where interns can make meaningful contributions. The primary artifact is `README.md`, which lists repositories organized by category.
 
 ### README.md Structure
 
