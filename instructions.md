@@ -133,6 +133,10 @@ Now, in an ideal world, you make all the necessary corrections to your project a
 
 If you become accepted into our internship program the next step is to reach out to Bridgette Burbrink for more details about onboarding, time and attendance, pay etc. It is your responsibility to share the good news of your acceptance with Andrew. 
 
+### Ending the Internship
+
+The end of the internship is a time for reflection and celebration. We will have a final meeting with you to discuss your experience, what you learned, and how you can apply it moving forward. We will also celebrate your accomplishments and contributions to our projects.  We higly encourage you to write a blog post about your experience and share it on your social media platforms. This is a great way to showcase your work and the skills you have developed during your internship.  Also consider [writing a paper](papers.md) and submitting it to a journal or conference. This is a great way to share your work with the broader scientific community and can be a valuable addition to your resume.
+
 # Project ideas {#project-ideas}
 
 [Total List](https://github.com/orgs/mieweb/repositories?type=all&q=visibility%3Apublic+archived%3Afalse) | [Repo of OpenSource](https://github.com/mieweb/opensource-internships)
