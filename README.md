@@ -1,4 +1,15 @@
-# MIEWeb Intern Projects
+# Introduction
+
+Before spending time exploring individual projects, we recommend starting with the [instructions](instructions.md) to get an overview of the program structure, expectations, and how to get started. The instructions also include helpful resources for learning Git, navigating GitHub, and understanding MIEWeb's open-source ecosystem.
+
+Pick a category that matches your interests:
+
+- **Engineering** — [Core Tools & Platforms](#core-tools--platforms) and [Developer Tools & APIs](#developer-tools--apis)
+- **Design, docs, or content** — [Documentation & Content](#documentation--content) and [Media & Video](#media--video)
+- **AI** — [AI & Automation](#ai--automation)
+- **Biotech & bioinformatics** — [BioNanomics](#bionanomics)
+
+# MIE Intern Projects
 
 Welcome to MIEWeb's open-source intern program! Below is a curated list of public repositories where interns can make meaningful contributions. Each project includes a brief description and suggested ways to get involved. Within each category, projects are ordered from most to least recently active.
 
