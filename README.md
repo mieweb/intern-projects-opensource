@@ -499,6 +499,11 @@ A force field engine for FRC swerve drive robots — provides wall repulsion, sn
 **Language:** Java | **Last push:** 2026-03-19  
 An MCP (Model Context Protocol) server for the FRC RoboRIO controller, enabling AI-assisted robot development and diagnostics. Interns can add new MCP endpoints exposing robot telemetry, improve documentation, write integration tests, or build example prompts that demonstrate AI-assisted FRC development workflows.
 
+#### Fun - Self-balancing-vehicle
+
+[https://github.com/LuckyYoon/autonomous-self-balancing-vehicle](https://github.com/LuckyYoon/autonomous-self-balancing-vehicle)   
+A modular, open-source robotic platform designed for the study and development of [two-wheeled single-tracked](https://www.instagram.com/reel/DYR-HMRB_nY/?igsh=MXJnemhpa2kxbWZxOQ==) autonomous vehicles.
+
 #### [10434-Northrop-Cybears](https://github.com/BioNanomics/10434-Northrop-Cybears)
 **Language:** Java | **Last push:** 2026-03-08  
 The robot code repository for FRC Team 10434, the Northrop Cybears. Interns can help implement new subsystems, improve autonomous routines, add unit tests using WPILib's simulation framework, improve code documentation, or help onboard new student members with contributing guides.
