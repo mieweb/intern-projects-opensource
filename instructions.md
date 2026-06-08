@@ -142,3 +142,14 @@ For lab work go to this document:
 [BioNanomics Internship Program Overview](https://docs.google.com/document/d/1P7yg92VVeASAZ7-08MTE3Wx-Qy_YYcAjlXXDXds42rk/edit?usp=drivesdk)
 
 The full list of MIEWeb open-source projects available for intern contributions is maintained in [README.md](README.md).
+
+
+[step1-drew-overview-video]: assets/instructions/step1-drew-overview-video.png
+
+[step1-program-short]: assets/instructions/step1-program-short.png
+
+[web-agent-mode]: assets/instructions/web-agent-mode.png
+
+[step4-youtube-short-example]: assets/instructions/step4-youtube-short-example.png
+
+[bionanomics-program-overview]: assets/instructions/bionanomics-program-overview.png

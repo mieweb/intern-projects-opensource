@@ -964,14 +964,6 @@ Search GitHub for open tickets in the projects you use and love and make a PR to
 * [Git Explained in 100 Seconds](https://youtu.be/hwP7WQkmECE?si=i4Tov6GZEROA3Cb1)  
 * [https://fireship.io/courses/git/](https://fireship.io/courses/git/) 
 
-[step1-drew-overview-video]: assets/instructions/step1-drew-overview-video.png
-
-[step1-program-short]: assets/instructions/step1-program-short.png
-
-[web-agent-mode]: assets/instructions/web-agent-mode.png
-
-[step4-youtube-short-example]: assets/instructions/step4-youtube-short-example.png
-
 [bionanomics-program-overview]: assets/instructions/bionanomics-program-overview.png
 
 [refinery-instagram]: assets/instructions/refinery-instagram.png
