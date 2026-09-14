@@ -41,7 +41,7 @@ In addition to project-specific work, interns are encouraged to apply these impr
 All AI-related projects are great opportunities to get involved with MIE's AI initiatives, including Ozwell.ai and other automation efforts. Interns can contribute to improving AI tooling, building new features, or enhancing documentation for these projects.  Any project you propose should include a clear path for how it could integrate with Ozwell.ai or other MIE AI systems in a meaningful way.
 
 ### [ozwellai-api](https://github.com/mieweb/ozwellai-api)
-**Language:** TypeScript | **Last push:** 2026-08-27  
+**Language:** TypeScript | **Last push:** 2026-09-10  
 API specifications and schemas for Ozwell.ai. Interns can improve OpenAPI documentation, add example request/response payloads, write validation tooling, or help generate SDK code from the spec.
 
 ### [ozwell-studio](https://github.com/mieweb/ozwell-studio)
@@ -54,7 +54,7 @@ FOOTNOTE (From Ozwell Only: Traceable Notes & Observations in Text Evidence) is 
 
 
 ### [hey-ozwell](https://github.com/mieweb/hey-ozwell)
-**Language:** Python | **Last push:** 2026-09-03  
+**Language:** Python | **Last push:** 2026-09-11  
 A Python project interfacing with Ozwell. Interns can add new commands, improve documentation, write tests, or improve the UX for interacting with Ozwell's AI features.
 
 ---
@@ -64,7 +64,7 @@ A Python project interfacing with Ozwell. Interns can add new commands, improve 
 These repositories are focused on documentation, guides, and educational content for MIE's EHR. Contributing to these can be a great way to learn about the ecosystem while helping others onboard more smoothly.  You should make a WebChart EHR Demo system at https://webchartnow.com and press the "Getting Started" button.
 
 ### [docs](https://github.com/mieweb/docs)
-**Language:** JavaScript | **Last push:** 2026-08-28  
+**Language:** JavaScript | **Last push:** 2026-09-09  
 WebChart and Enterprise Health documentation website. Interns can contribute by improving existing documentation pages, fixing typos and broken links, adding new how-to guides, writing tutorials based on their own onboarding experience, or improving the site's tooling and build process.
 
 ### [docs_video](https://github.com/mieweb/docs_video)
@@ -77,7 +77,7 @@ Videos used for documentation. Interns can help by scripting, recording, or edit
 ## Core Tools & Platforms
 
 ### [eSheet](https://github.com/mieweb/eSheet)
-**Language:** TypeScript | **Last push:** 2026-09-02  
+**Language:** TypeScript | **Last push:** 2026-09-13  
 A modular form builder and renderer for React — a TypeScript-first Nx monorepo with packages for a drag-and-drop visual builder (`@esheet/builder`), a form renderer (`@esheet/renderer`), 19 built-in field components, and a headless logic/schema core. Interns can add new field types to `@esheet/fields`, improve the drag-and-drop builder UX, expand test coverage with Vitest, improve the Docusaurus documentation site, fix open issues, or build a new renderer integration (e.g. a Web Component or non-Blaze backend).
 
 ### [templit](https://github.com/mieweb/templit)
@@ -85,7 +85,7 @@ A modular form builder and renderer for React — a TypeScript-first Nx monorepo
 A TypeScript library that renders Markdown templates to HTML using a single `render()` API — with built-in support for Handlebars, Mustache, and Liquid engines selectable via YAML frontmatter, automatic frontmatter variable defaults that merge with runtime overrides, and a `marked`-powered Markdown-to-HTML pipeline. It ships as ESM + CJS with full type definitions, and includes a live Next.js + Monaco Editor playground pre-loaded with real-world examples (MSAs, Software License Agreements, HIPAA BAAs). Interns can add a new template engine (e.g. Nunjucks or EJS), improve the Monaco playground UI, expand Vitest test coverage for edge cases in frontmatter parsing and variable merging, add a CLI tool for rendering templates from the command line, or build an example integration showing templit powering a contract-generation workflow.
 
 ### [artipod](https://github.com/mieweb/artipod)
-**Language:** TypeScript | **Last push:** 2026-09-07  
+**Language:** TypeScript | **Last push:** 2026-09-14  
 A TypeScript library that provides AI-aware filesystem abstraction (ArtiMounts) and isolated Docker/Podman container execution for AI agents — exposing VS Code Copilot Chat-compatible tool schemas so models can read, edit, and execute code in a sandboxed environment. Interns can add new mount-level tools, improve the web demo UI, expand test coverage with Jest, add support for additional container runtimes, or build example integrations showing how to wire artipod into an AI agent workflow.
 
 ### [yabelfish](https://github.com/mieweb/yabelfish)
@@ -125,7 +125,7 @@ An MCP (Model Context Protocol) server that exposes the Redmine REST API for AI 
 Storage and processing system for Pulse. Interns can improve storage integrations, add monitoring/observability, write tests, or improve documentation.
 
 ### [pulse](https://github.com/mieweb/pulse)
-**Language:** TypeScript | **Last push:** 2026-09-03  
+**Language:** TypeScript | **Last push:** 2026-09-11  
 Secure institutional knowledge sharing through short-form video content. Interns can work on new features, fix UI bugs, improve the video upload/playback experience, write tests, or improve documentation.
 
 ### [pulseclip](https://github.com/mieweb/pulseclip)
@@ -141,7 +141,7 @@ Pulse Cam — a desktop application for capturing video. Interns with interest i
 ## Time & Scheduling
 
 ### [timehuddle](https://github.com/mieweb/timehuddle)
-**Language:** TypeScript | **Last push:** 2026-09-06  
+**Language:** TypeScript | **Last push:** 2026-09-13  
 A time/scheduling collaboration tool. Interns can add new scheduling features, improve the UI, write tests, or improve documentation.
 
 ### [timeharbor-app](https://github.com/mieweb/timeharbor-app)
@@ -199,7 +199,7 @@ FroozHIE 2.0 — a zero-dependency, browser-based C-CDA viewer for physicians an
 ## Data Visualization
 
 ### [datavis](https://github.com/mieweb/datavis)
-**Language:** TypeScript | **Last push:** 2026-09-03  
+**Language:** TypeScript | **Last push:** 2026-09-10  
 **DataVis NITRO** — a React 19 + `@mieweb/ui` + Tailwind CSS 4 front-end library built on top of the [wcdatavis](https://github.com/mieweb/wcdatavis) data engine. It provides a full-featured `DataGrid` component with flat, grouped, and pivot table renderers; a drag-and-drop `ControlPanel` for building group/pivot/aggregate operations (8 aggregate functions: sum, avg, count, counta, countu, min, max, list); per-column filter widgets for strings, numbers, dates, and booleans; 6 modal dialogs (column config, template editor, perspective manager, debug inspector, and more); a `PrefsToolbar` for saving/restoring named perspectives; and i18n support in 10 locales. See the [live demo](https://mieweb.github.io/datavis/) and [Storybook](https://verbose-disco-y7k1zoq.pages.github.io/storybook/). The rewrite is actively in progress — Phase 5 (Chart.js graph shell) is the next open milestone. Interns can implement the graph phase, add Playwright E2E tests for grouped/pivot modes, add new column types or aggregate functions, improve accessibility (ARIA, keyboard nav), expand i18n locale coverage, or port the remaining legacy UI patterns to `@mieweb/ui` components (tracked in `mieweb-ui-migration.md`).
 
 ### [wcdatavis](https://github.com/mieweb/wcdatavis)
@@ -281,7 +281,7 @@ A test repository for the wikiGDrive tool. Interns can add test documents, valid
 ## UI & Frontend Components
 
 ### [ui](https://github.com/mieweb/ui)
-**Language:** TypeScript | **Last push:** 2026-09-05  
+**Language:** TypeScript | **Last push:** 2026-09-13  
 MIEWeb's shared UI component library. Interns can add new components, write Storybook stories, improve accessibility, add unit/snapshot tests, or improve component documentation.
 
 ### [news-widget](https://github.com/mieweb/news-widget)
@@ -309,11 +309,11 @@ A lightweight, in-app diagnostics viewer for Cordova mobile apps. Interns can im
 Reusable GitHub Actions for mobile CI/CD (iOS signing and build, Android). Interns can add new reusable actions, improve existing ones, write tests, improve documentation, or add support for additional mobile platforms.
 
 ### [opensource-server](https://github.com/mieweb/opensource-server)
-**Language:** JavaScript | **Last push:** 2026-09-06  
+**Language:** JavaScript | **Last push:** 2026-09-11  
 The MIEWeb open-source server configuration and setup. Interns can improve provisioning scripts, add documentation, write tests for configuration steps, or update dependencies.
 
 ### [template-mieweb-opensource](https://github.com/mieweb/template-mieweb-opensource)
-**Language:** Shell | **Last push:** 2026-08-19  
+**Language:** Shell | **Last push:** 2026-09-09  
 A template for new MIEWeb open-source repositories. Interns can improve the template's documentation, add additional boilerplate (CI/CD workflows, issue templates, contributing guides), or keep the template up to date with current MIEWeb standards.
 
 ### [pown.sh](https://github.com/mieweb/pown.sh)
@@ -365,7 +365,7 @@ A proof-of-concept monorepo demonstrating multiple authentication patterns using
 An example showing OAuth2 token usage with WebChart. Interns can improve the example with more detailed comments, add error handling, extend it to cover additional OAuth flows, or add a step-by-step setup guide.
 
 ### [mieweb_auth_app](https://github.com/mieweb/mieweb_auth_app)
-**Language:** JavaScript | **Last push:** 2026-09-07  
+**Language:** JavaScript | **Last push:** 2026-09-13  
 A Meteor/Cordova application for push notification-based authentication. Interns can improve the push notification handling, update dependencies, improve the UI, write tests, or improve documentation.
 
 ### [LDAPServer](https://github.com/mieweb/LDAPServer)
@@ -540,7 +540,7 @@ The BioNanomics repository template. Interns can improve the default README stru
 A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
 
 ### [actions](https://github.com/mieweb/actions)
-**Last push:** 2026-08-11 | **Language:** Ruby  
+**Last push:** 2026-09-09 | **Language:** Ruby  
 Reusable GitHub Actions for mobile CI/CD (iOS signing + build, Android) Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ### [F3iducial](https://github.com/BioNanomics/F3iducial)
@@ -548,7 +548,7 @@ Reusable GitHub Actions for mobile CI/CD (iOS signing + build, Android) Interns 
 FIRST Field Fiducial — Open-source field calibration, localization, and verification tooling for FRC and FTC. Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ### [chat-component](https://github.com/mieweb/chat-component)
-**Last push:** 2026-09-03 | **Language:** JavaScript  
+**Last push:** 2026-09-11 | **Language:** JavaScript  
 A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
 
 ### [cordova-plugin-googleplus](https://github.com/mieweb/cordova-plugin-googleplus)
@@ -560,7 +560,7 @@ Cordova Google Sign-In plugin (mieweb fork) modernized for GoogleSignIn 8.x / pl
 A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
 
 ### [edEditIt](https://github.com/mieweb/edEditIt)
-**Last push:** 2026-09-03 | **Language:** Shell  
+**Last push:** 2026-09-13 | **Language:** Shell  
 VSCode extension for Markdown Editing and can be extened to support Yablefish Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ### [cloud](https://github.com/mieweb/cloud)
@@ -568,11 +568,11 @@ VSCode extension for Markdown Editing and can be extened to support Yablefish In
 Cloudflare-first portability layer (@mieweb/cloud): database, object storage, key/value, queues, durable objects, vector, AI. Other runtimes implement the same contract. Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ### [ozwell-manager](https://github.com/mieweb/ozwell-manager)
-**Last push:** 2026-08-27 | **Language:** TypeScript  
+**Last push:** 2026-09-13 | **Language:** TypeScript  
 A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
 
 ### [ozwell-studio-launcher](https://github.com/mieweb/ozwell-studio-launcher)
-**Last push:** 2026-09-02 | **Language:** JavaScript  
+**Last push:** 2026-09-11 | **Language:** JavaScript  
 A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
 
 ### [pulse-orig](https://github.com/mieweb/pulse-orig)
@@ -580,7 +580,7 @@ A recently added repository. Interns can help by exploring the codebase, writing
 Secure institutional knowledge sharing through short-form video content. Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ### [yorm](https://github.com/mieweb/yorm)
-**Last push:** 2026-08-25 | **Language:** TypeScript  
+**Last push:** 2026-09-10 | **Language:** TypeScript  
 YORM: Yjs Object-Relational Mapper Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ### [touchcell](https://github.com/BioNanomics/touchcell)
@@ -588,11 +588,11 @@ YORM: Yjs Object-Relational Mapper Interns can help by exploring the codebase, i
 A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
 
 ### [redmine-mcp-proxy](https://github.com/mieweb/redmine-mcp-proxy)
-**Last push:** 2026-09-03 | **Language:** JavaScript  
+**Last push:** 2026-09-09 | **Language:** JavaScript  
 A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
 
 ### [remote-serial-pico](https://github.com/BioNanomics/remote-serial-pico)
-**Last push:** 2026-09-04 | **Language:** JavaScript  
+**Last push:** 2026-09-09 | **Language:** JavaScript  
 Access remote serial devices connected to Pico with Pi Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ### [chimeraDB](https://github.com/mieweb/chimeraDB)
@@ -600,8 +600,12 @@ Access remote serial devices connected to Pico with Pi Interns can help by explo
 A recently added repository. Interns can help by exploring the codebase, writing a description, adding documentation, or contributing improvements.
 
 ### [REFINERY-site](https://github.com/BioNanomics/REFINERY-site)
-**Last push:** 2026-09-04 | **Language:** Astro  
+**Last push:** 2026-09-13 | **Language:** Astro  
 The public site for The REFINERY, a nonprofit robotics makerspace affiliated with BioNanomics. Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
+
+### [ozwell-frontdoor](https://github.com/mieweb/ozwell-frontdoor)
+**Last push:** 2026-09-11 | **Language:** TypeScript  
+Ozwell.ai marketing site — static Next.js App Router build using the BlueHive marketing framework Interns can help by exploring the codebase, improving documentation, writing tests, or contributing new features.
 
 ---
 ## Getting Started
